@@ -1,0 +1,26 @@
+.contact { 
+    background: var(--primary); 
+    color: white; 
+    text-align: center; 
+    padding: 2rem; 
+}
+
+.contact h2 { 
+    font-weight: normal;
+}
+
+.contact a { 
+    color: white; 
+    text-decoration: none; 
+}
+.icons {
+    font-size: 2rem; 
+    margin-top: 1rem; 
+    display: inline-block; 
+    margin: 0 1rem;
+   transition: color 0.3s ease;
+}
+
+.contact a:hover { 
+    color: var(--text-main);
+}

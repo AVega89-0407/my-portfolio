@@ -1,0 +1,14 @@
+#root {
+--bg-main: #f9fafb;
+--card-bg: #ffffff;
+--text-main: #0f172a;
+--text-muted: #64748b;
+--primary: #3b82f6;
+--border: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-main);
+}

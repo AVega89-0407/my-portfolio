@@ -1,0 +1,31 @@
+.navbar {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-name {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: normal;
+}
+
+.navbar-links a:hover {
+  color: var(--text-main);
+}
