@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar/Navbar.jsx'
-import Contact from '../components/Contact/Contact.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 import { Outlet } from 'react-router-dom'
 
 function MainLayout() {
@@ -9,7 +9,7 @@ function MainLayout() {
     <main>
     <Outlet />
     </main>
-    <Contact />
+    <Footer />
     </>
   )
 }

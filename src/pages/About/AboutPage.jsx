@@ -1,4 +1,7 @@
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
+import Skills from '../../components/Skills/Skills.jsx'
+
+import { FaDownload } from 'react-icons/fa';
 
 import './AboutPage.css'
 
@@ -14,9 +17,10 @@ function AboutPage() {
       <p>I'm passionate about creating beautiful and functional web applications. I have experience with React, JavaScript, and CSS. I'm always eager to learn new technologies and improve my skills.</p>
       <p>In my free time, I enjoy hiking, cooking, and traveling. I'm also a big fan of cats 🐱.</p>
       <p>If you'd like to connect or learn more about me, feel free to reach out!</p>
-      <button>Download Resume</button>
+      <button><FaDownload /> Download Resume</button>
     </article>
     </div>
+    <Skills />
     </AnimatedSection>
     </>
   )
