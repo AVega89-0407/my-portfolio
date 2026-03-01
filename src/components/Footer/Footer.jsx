@@ -1,7 +1,7 @@
 import './Footer.css';
 import { FaLinkedin, FaGithub, FaEnvelope, FaInstagramSquare } from "react-icons/fa";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="contact">
       <h2>Get In Touch</h2>
@@ -19,4 +19,5 @@ const Footer = () => {
     </footer>
   );
 };
+
 export default Footer;

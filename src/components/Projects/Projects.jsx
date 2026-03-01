@@ -2,7 +2,7 @@ import './Projects.css';
 import { useGithubRepos } from '../../services/GetRepos';
 import ProjectCard from './ProjectCard';
 
-const Projects = () => {
+function Projects() {
   const repos = useGithubRepos([
     "todoapp",
     "split-the-nota",
