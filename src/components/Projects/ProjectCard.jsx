@@ -1,22 +1,37 @@
+import { projectData } from '../../data/projectData';
 import './Projects.css';
 
-import { FaStar } from 'react-icons/fa';
-
 function ProjectCard({ repo }) {
+
+  console.log(repo.name);
+  
+
+  const data = projectData[repo.name];
+
   return (
-    <div className="project-card">
+    <section className="project-card">
+
+    <article className='image-wrapper'>
+      <img src={data?.image} alt={repo.name} />
+    </article>
+
+      <article className='card-content'>
       <h3>{repo.name}</h3>
       <p>{repo.description || "No description"}</p>
+      </article>
 
-      <div className="project-meta">
-        <FaStar /> {repo.stargazers_count} · 🍴 {repo.forks_count}
-      </div>
+      <article className='tech'>
+        {data?.tech?.map((item) => (
+          <span key={item}>{item}</span>
+        ))}
+      </article>
 
       <a href={repo.html_url} target="_blank" rel="noreferrer">
         View project →
       </a>
-    </div>
+    </section>
   );
+  
 }
 
 export default ProjectCard;
