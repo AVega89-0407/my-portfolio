@@ -75,3 +75,15 @@
   color: var(--text-muted);
   padding-left: 1rem;
 }
+
+@media (max-width: 768px) {
+  .skills-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-item {
+    width: 100%;
+    max-width: none;
+  }
+}

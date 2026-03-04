@@ -16,8 +16,8 @@ function ProjectCard({ repo }) {
     </article>
 
       <article className='card-content'>
-      <h3>{repo.name}</h3>
-      <p>{repo.description || "No description"}</p>
+      <h3 className="project-title">{repo.name.replace(/-/g, " ")}</h3>
+      <p className='card-text'>{repo.description || "No description"}</p>
       </article>
 
       <article className='tech'>

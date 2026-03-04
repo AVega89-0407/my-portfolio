@@ -6,7 +6,7 @@ function Skills() {
   return (
     <section className="skills">    
         <h2>Skills Overview</h2>
-        <p className='skill-text'>I'm a Frontend student and these are some of my skills from my education.</p>
+        <p className='skill-text'>Here are some of the technologies and tools I have experience with:</p>
         <section className="skills-card">
             <article className="skill-item">
                 {/* <p className='skill-icon'><FaLaptopCode /></p> */}
@@ -15,7 +15,7 @@ function Skills() {
                     <li><FaCheck /> React</li>
                     <li><FaCheck /> JavaScript</li>
                     <li><FaCheck /> Node.js</li>
-                    <li><FaCheck /> HTML/CSS/SASS/Tailwind</li>
+                    <li><FaCheck /> HTML/CSS</li>
                     </ul>
             </article>
             <article className="skill-item">
@@ -24,7 +24,7 @@ function Skills() {
                  <ul>
                     <li><FaCheck /> Node.js</li>
                     <li><FaCheck /> Express</li>
-                    <li><FaCheck /> MongoDB</li>
+                    <li><FaCheck /> API</li>
                     </ul>
             </article>
             <article className="skill-item">
@@ -34,7 +34,6 @@ function Skills() {
                     <li><FaCheck /> Git</li>
                     <li><FaCheck /> GitHub</li>
                     <li><FaCheck /> Figma</li>
-                    <li><FaCheck /> Adobe XD</li>
                     </ul>
             </article>
         </section>

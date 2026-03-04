@@ -26,32 +26,37 @@
     margin-bottom: 2rem;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 400px;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+.contact-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--primary);
+    text-decoration: none;
+    margin-top: 1rem;
 }
 
-.contact-form input,
-.contact-form textarea {
-    padding: 0.75rem;
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    font-size: 1rem;
-    background-color: var(--card-bg);
-    color: var(--text-main);
+.contact-icons:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
 }
 
-.contact-form button {
-    padding: 0.75rem;
-    font-size: 1rem;
-    background-color: var(--primary);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+@media (max-width: 600px) {
+    .contact-intro {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact-intro h1 {
+        font-size: 2rem;
+    }
+
+    .contact-intro p {
+        font-size: 1rem;
+    }
+
+    .contact-intro img {
+        width: 200px;
+        height: 200px;
+    }
 }
