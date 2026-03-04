@@ -1,16 +1,56 @@
-# React + Vite
+# My Portfolio Website
+🌐 This repository contains my personal portfolio website — built to showcase my skills, projects and experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## :rocket: About
+This is a **React + Vite** project that serves as my developer portfolio. It’s designed to be:
+- :briefcase: A showcase of my work
+- 📱 Responsiv & modern
+- ⚡ SPA
 
-Currently, two official plugins are available:
+## 🛠 Built With
+This project uses the following core technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – UI library
+- **Vite** – Super fast build tool
+- **CSS** – Styling
 
-## React Compiler
+## 📁 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Highlight your portfolio features:
 
-## Expanding the ESLint configuration
+- Hero section with introduction
+- Projects section with links to repository
+- Contact details
+- Responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+To get a local copy running:
+
+```bash
+git clone https://github.com/AVega89-0407/my-portfolio.git
+
+cd my-portfolio
+
+npm install
+
+npm run dev
+```
+
+## 📫 Contact
+
+Email: andrea.vega@live.se
+
+LinkedIn: [linkedin.com/in/andrea-vega-piñones](https://www.linkedin.com/in/andrea-vega-pi%C3%B1ones-19718b138/)
+
+GitHub: https://github.com/AVega89-0407
+
+## 🌐 Live demo
+
+
+## ⭐ Show some ❤️
+If you like this project, give it a ⭐️!
+
+
+
+
