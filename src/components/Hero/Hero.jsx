@@ -1,4 +1,5 @@
-import { FaReact, FaHtml5, FaCss3, FaJsSquare, FaSass } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3, FaJsSquare, FaSass, FaDownload } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 import './Hero.css';
 
 import profileImage from '../../assets/profile.png';
@@ -9,14 +10,15 @@ const Hero = () => {
       <img src={profileImage} alt="Andrea Vega" className="hero-image" />
       <article className='hero-text'>
       <h1 className="hero-title">Aspiring Frontend Developer</h1>
-      <p className="hero-subtitle">I build beautiful and functional things for the web.</p>
-      <div className="hero-icons">
+      <p className="hero-subtitle">Frontend Developer passionate about building modern,
+responsive web applications with React and JavaScript.</p>
+      <section className="hero-icons">
         <FaReact size={48} color="#61DBFB" title="React" />
         <FaHtml5 size={48} color="#E34C26" title="HTML5" />
         <FaCss3  size={48} color="#264DE4" title="CSS3" />
         <FaJsSquare size={48} color='#FFEA00' title='JavaScript' />
         <FaSass size={48} color='#F2B3DB' title='Sass' />
-      </div>
+      </section>
         </article>
     </section>
   );

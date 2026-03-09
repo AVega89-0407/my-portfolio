@@ -5,6 +5,7 @@ function Footer() {
   return (
     <footer className="contact">
       <h2>Get In Touch</h2>
+      <p>© 2026 Andrea Vega</p>
       <a className='icons'
       href="mailto:andrea.vega@live.se"><FaEnvelope /></a>
       <a href="https://www.linkedin.com/in/andrea-vega-pi%C3%B1ones-19718b138/" 

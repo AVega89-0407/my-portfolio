@@ -13,6 +13,6 @@ export const projectData = {
     },
     "weather-app": {
         image: weatherImage,
-        tech: ["JavaScript", "HTML/CSS"]
+        tech: ["JavaScript", "HTML/CSS", "API"]
     },
 };
