@@ -11,7 +11,7 @@ const [isOpen, setOpen] = useState(false);
   return (
     <header className="navbar">
       <nav className='navbar-top'>
-      <p className="navbar-name">Andrea Vega</p>
+      <NavLink to="/" className="navbar-name"><p>Andrea Vega</p></NavLink>
         <ul className="navbar-links">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>

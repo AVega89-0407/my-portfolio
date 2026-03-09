@@ -1,5 +1,4 @@
 import { FaReact, FaHtml5, FaCss3, FaJsSquare, FaSass, FaDownload } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
 import './Hero.css';
 
 import profileImage from '../../assets/profile.png';
