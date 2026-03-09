@@ -46,7 +46,7 @@ LinkedIn: [linkedin.com/in/andrea-vega-piñones](https://www.linkedin.com/in/and
 GitHub: https://github.com/AVega89-0407
 
 ## 🌐 Live demo
-
+https://andreavega-portfolio.netlify.app/
 
 ## ⭐ Show some ❤️
 If you like this project, give it a ⭐️!
