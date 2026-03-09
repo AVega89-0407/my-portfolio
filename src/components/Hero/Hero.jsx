@@ -1,7 +1,7 @@
 import { FaReact, FaHtml5, FaCss3, FaJsSquare, FaSass } from 'react-icons/fa';
 import './Hero.css';
 
-import profileImage from '../../assets/profile-img.png';
+import profileImage from '../../assets/profile.png';
 
 const Hero = () => {
   return (

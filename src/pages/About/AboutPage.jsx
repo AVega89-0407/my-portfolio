@@ -1,6 +1,6 @@
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
 import Skills from '../../components/Skills/Skills.jsx'
-import aboutMeImage from '../../assets/about-me.png';
+import aboutMeImage from '../../assets/about.png';
 
 import { FaDownload } from 'react-icons/fa';
 
@@ -11,7 +11,7 @@ function AboutPage() {
     <>
     <AnimatedSection>
     <div className="about-page">
-      <img src={aboutMeImage} alt="Profile" className="profile-picture" />
+      <img src={aboutMeImage} alt="About me" className="profile-picture" />
     <article className="about-me">
       <h1>Hi, I'm Andrea</h1>
       <p>Frontend Developer</p>
