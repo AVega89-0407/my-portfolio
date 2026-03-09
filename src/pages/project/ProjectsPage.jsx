@@ -1,6 +1,6 @@
 import Projects from '../../components/Projects/Projects.jsx'
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
-import projectImage from '../../assets/project.png';
+import projectImage from '../../assets/project.PNG';
 
 import './ProjectsPage.css'
 

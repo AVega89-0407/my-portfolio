@@ -1,6 +1,6 @@
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
-import contactImage from '../../assets/contact.png';
+import contactImage from '../../assets/contact.PNG';
 
 import './ContactPage.css'
 
