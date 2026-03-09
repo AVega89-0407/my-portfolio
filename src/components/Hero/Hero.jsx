@@ -1,10 +1,12 @@
 import { FaReact, FaHtml5, FaCss3, FaJsSquare, FaSass } from 'react-icons/fa';
 import './Hero.css';
 
+import profileImage from '../../assets/profile-img.png';
+
 const Hero = () => {
   return (
     <section className="hero">
-      <img src="/src/assets/profile-img.png" alt="Andrea Vega" className="hero-image" />
+      <img src={profileImage} alt="Andrea Vega" className="hero-image" />
       <article className='hero-text'>
       <h1 className="hero-title">Aspiring Frontend Developer</h1>
       <p className="hero-subtitle">I build beautiful and functional things for the web.</p>

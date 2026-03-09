@@ -1,5 +1,6 @@
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
-import { FaEnvelope, FaLinkedin, FaGithub, FaInstagramSquare } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
+import contactImage from '../../assets/contact-img.png';
 
 import './ContactPage.css'
 
@@ -8,7 +9,7 @@ function ContactPage() {
     <>
     <AnimatedSection>
     <article className='contact-intro'>
-      <img src="/src/assets/contact-img.png" alt="contact image" className='contact-image' />
+      <img src={contactImage} alt="contact image" className='contact-image' />
       <section>
       <h1>Get in Touch</h1>
       <p>

@@ -1,5 +1,6 @@
 import Projects from '../../components/Projects/Projects.jsx'
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
+import projectImage from '../../assets/project-img.png';
 
 import './ProjectsPage.css'
 
@@ -8,7 +9,7 @@ function ProjectsPage() {
     <>
     <AnimatedSection>
       <article className='projects-intro'>
-      <img src="/src/assets/project-img.png" alt="profile image projects" />
+      <img src={projectImage} alt="profile image projects" />
       <section>
       <h1>My Projects</h1>
       <p>
