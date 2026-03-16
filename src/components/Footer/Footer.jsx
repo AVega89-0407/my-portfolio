@@ -14,9 +14,6 @@ function Footer() {
       <a className='icons'
        target="_blank" rel="noopener noreferrer"
       href="https://github.com/AVega89-0407"><FaGithub /></a>
-       <a className='icons'
-       target="_blank" rel="noopener noreferrer"
-      href="https://www.instagram.com/andreavega.dev/"><FaInstagramSquare /></a>
     </footer>
   );
 };
