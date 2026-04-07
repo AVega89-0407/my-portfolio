@@ -12,7 +12,7 @@ function Footer() {
       target="_blank" rel="noopener noreferrer"
       className='icons'><FaLinkedin /></a>
       <a className='icons'
-       target="_blank" rel="noopener noreferrer"
+      target="_blank" rel="noopener noreferrer"
       href="https://github.com/AVega89-0407"><FaGithub /></a>
     </footer>
   );
