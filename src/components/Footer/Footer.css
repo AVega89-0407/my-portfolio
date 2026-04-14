@@ -24,3 +24,18 @@
 .contact a:hover { 
     color: var(--text-main);
 }
+
+@media (max-width: 600px) {
+    .contact {
+        padding: 1rem;
+    }
+
+    .contact h2 {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+    }
+}
