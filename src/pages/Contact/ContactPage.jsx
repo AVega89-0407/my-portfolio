@@ -1,10 +1,10 @@
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'
 import contactImage from '../../assets/contact.PNG';
 
 import './ContactPage.css'
 
 function ContactPage() {
+
   return (
     <>
     <AnimatedSection>
@@ -13,21 +13,19 @@ function ContactPage() {
       <section>
       <h1>Get in Touch</h1>
       <p>
-        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me by sending an email or connecting on LinkedIn. I look forward to hearing from you!
+        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out to me by filling out the form below. I look forward to hearing from you!
       </p>
-           <a className='contact-icons'
-          href="mailto:andrea.vega@live.se"><FaEnvelope /> andrea.vega@live.se</a>
-          <br />
-          <a className='contact-icons'
-          href="https://www.linkedin.com/in/andrea-vega-pi%C3%B1ones-19718b138/" 
-          target="_blank" rel="noopener noreferrer"><FaLinkedin /> linkedin.com/in/andrea-vega</a>
-          <br />
-          <a className='contact-icons'
-                 target="_blank" rel="noopener noreferrer"
-                href="https://github.com/AVega89-0407"><FaGithub />Avega89-0407</a>
-      </section>
+      <form className='contact-form' action="https://formspree.io/f/mbdqljaj" method="POST">
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
     </article>
-
     </AnimatedSection>
     </>
   )
