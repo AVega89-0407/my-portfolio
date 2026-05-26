@@ -9,7 +9,7 @@ function Skills() {
         <p className='skill-text'>Here are some of the technologies and tools I have experience with:</p>
         <section className="skills-card">
             <article className="skill-item">
-                {/* <p className='skill-icon'><FaLaptopCode /></p> */}
+                <p className='skill-icon'><FaLaptopCode /></p>
                 <h3>Frontend</h3>   
                 <ul>
                     <li><FaCheck /> React</li>
@@ -19,7 +19,7 @@ function Skills() {
                     </ul>
             </article>
             <article className="skill-item">
-                {/* <p className='skill-icon'><FaDatabase /></p> */}
+                <p className='skill-icon'><FaDatabase /></p>
                 <h3>Backend</h3>
                  <ul>
                     <li><FaCheck /> Node.js</li>
@@ -28,7 +28,7 @@ function Skills() {
                     </ul>
             </article>
             <article className="skill-item">
-                {/* <p className='skill-icon'><FaTh /></p> */}
+                <p className='skill-icon'><FaTh /></p>
                 <h3>Others</h3>
                   <ul>
                     <li><FaCheck /> Git</li>

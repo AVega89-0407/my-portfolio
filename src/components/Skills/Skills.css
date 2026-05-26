@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: var(--bg-main);
+  background-color: white;
 }
 
 .skills h2 {
@@ -15,7 +15,7 @@
 .skill-text {
   font-size: 1.2em;
   color: var(--text-muted);
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .skills-card {
@@ -27,7 +27,7 @@
 
 .skill-item {
   background-color: var(--card-bg);
-  border: 1px solid var(--border);
+  border: 1px solid #c7d2fe;
   border-radius: 8px;
   padding: 20px;
   width: 100%;
@@ -37,7 +37,7 @@
 
 .skill-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);  
+  box-shadow: 0 10px 20px #e0e7ff;  
 }
 
 .skill-item h3 {
@@ -47,18 +47,10 @@
 }
 
 .skill-icon {
-  font-size: 2em;
-  margin-bottom: 10px;
-  background-color: var(--primary);
-  color: #fff;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -140px;
+  font-size: 3rem;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
 }
 
 .skill-item li svg {

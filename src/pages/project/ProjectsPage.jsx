@@ -9,7 +9,6 @@ function ProjectsPage() {
     <>
     <AnimatedSection>
       <article className='projects-intro'>
-      <img src={projectImage} alt="profile image projects" />
       <section>
       <h1>My Projects</h1>
       <p>

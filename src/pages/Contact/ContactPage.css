@@ -27,7 +27,7 @@
 .contact-intro img {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    object-fit: contain;
     margin-bottom: 2rem;
 }
 

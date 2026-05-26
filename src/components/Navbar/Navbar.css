@@ -1,12 +1,14 @@
 .navbar {
   background: var(--primary);
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
 
-  position: relative;
+  position: sticky;
+  top: 0;
   flex-wrap: wrap;
+  height: 60px;
 }
 
 .navbar-top {
@@ -24,6 +26,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
 }
 
 .navbar-links {
@@ -44,16 +47,35 @@
   color: var(--text-main);
 }
 
-.hamburger {
-  display: none;
-  margin-left: auto;
-} 
+.available-badge {
+  background: white;
+  color: var(--text-main);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #10b981;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  &:hover {
+    background: var(--text-main);
+    color: white;
+  }
+}
 
 @media (max-width: 768px) {
 
   .navbar-top {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
@@ -65,37 +87,13 @@
     display: none;
   }
 
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
+  .navbar-name {
+    font-size: 1.2rem;
   }
 
-  .mobile-menu {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 1rem;
-
-    background: var(--primary);
-    padding: 1rem 0;
-    border-top: 1px solid rgba(255,255,255,0.2);
+  .available-badge {
+    display: none;
   }
 
-  .mobile-menu li {
-    list-style: none;
-  }
-
-  .mobile-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: normal;
-    transition: color 0.3s ease;
-  }
-  .mobile-menu a:hover {
-    color: var(--text-main);
-  }
-
+  
 }

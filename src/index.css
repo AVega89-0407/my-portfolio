@@ -7,8 +7,38 @@
 --border: #e5e7eb;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-main);
 }
+
+main {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    background-color: var(--bg-main);
+  }
+
+  main {
+    padding: 0 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+

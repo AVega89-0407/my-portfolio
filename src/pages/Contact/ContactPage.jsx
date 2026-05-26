@@ -1,5 +1,5 @@
 import AnimatedSection from '../../components/Animation/AnimatedSection.jsx'
-import contactImage from '../../assets/contact.PNG';
+import contactImage from '../../assets/contact-me.png';
 import useContactForm from '../../hooks/useContactForm.js';
 
 import './ContactPage.css'
