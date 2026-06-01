@@ -3,7 +3,6 @@ import { GraduationCap, MapPin, MessageSquareText } from 'lucide-react';
 import './Hero.css';
 
 import profileImage from '../../assets/me.png';
-import { NavLink } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -14,7 +13,7 @@ function Hero() {
         <p className="hero-subtitle">Frontend developer with a background in education. I care about clean code, accessibility, and the small details that make a big difference.</p>
         <p className="hero-education"><GraduationCap /> Previously in education · now building for the web</p>
         <button className="hero-button" onClick={() => window.open('/cv.pdf', '_blank')}><FaDownload />  Download CV</button>
-        <NavLink to="/projects" className="hero-link"><FaEye /> View Projects</NavLink>
+        <a href='#projects' className="hero-link"><FaEye /> View Projects</a>
       </article>
       <article className='hero-image-section'>
       <img src={profileImage} alt="Andrea Vega" className="hero-image" />

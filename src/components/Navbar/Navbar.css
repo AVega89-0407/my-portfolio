@@ -50,6 +50,7 @@
 
 .available-badge {
   background: white;
+  text-decoration: none;
   color: var(--text-main);
   padding: 0.25rem 0.5rem;
   border-radius: 5px;

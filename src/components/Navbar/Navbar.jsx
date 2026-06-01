@@ -17,10 +17,11 @@ function Navbar() {
             <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <span className="available-badge">
+        <a className="available-badge"
+        href="#contact">
   <span className="dot" />
   Open to work
-</span>
+</a>
         </nav>
     </header>
   );

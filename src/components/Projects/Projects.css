@@ -81,19 +81,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
 
     a {
     color: var(--primary); 
     text-decoration: none; 
     font-weight: 500; 
+    border: 1px solid var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 14px;
     
     &:hover {
       text-decoration: underline;  
     }
 }
 
-button {
-    
+.btn {
+    background-color: var(--primary);
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: var(--text-main);
+    }
 }
 
 }
