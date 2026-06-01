@@ -34,7 +34,7 @@ function Hero() {
         </article>
         <article className="hero-info">
           <MessageSquareText style={{ marginRight: '0.5rem', color: 'var(--primary)', backgroundColor: '#e0e7ff', borderRadius: '10px', padding: '0.5rem' }} size={35} /><span> Always responds within 24 hours
-            <a href="mailto: andrea.vega@live.se">andrea.vega@live.se</a>
+            <a href="mailto: andreavega.dev@outlook.com">andreavega.dev@outlook.com</a>
           </span>
         </article>
       </article>

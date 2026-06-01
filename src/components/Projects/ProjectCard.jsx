@@ -26,9 +26,12 @@ function ProjectCard({ repo }) {
         ))}
       </article>
 
+        <article className='card-btn'>
       <a href={repo.html_url} target="_blank" rel="noreferrer">
         View project →
       </a>
+      <button>Demo</button>
+      </article>
     </section>
   );
   

@@ -9,6 +9,7 @@
   top: 0;
   flex-wrap: wrap;
   height: 60px;
+  z-index: 1;
 }
 
 .navbar-top {
