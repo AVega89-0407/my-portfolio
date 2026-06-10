@@ -1,4 +1,5 @@
 import { projectData } from '../../data/projectData';
+import { FaGithub } from 'react-icons/fa';
 import './Projects.css';
 
 function ProjectCard({ repo }) {
@@ -29,11 +30,11 @@ function ProjectCard({ repo }) {
 
         <article className='card-btn'>
       <a href={repo.html_url} target="_blank" rel="noreferrer">
-        View project →
+        <FaGithub /> GitHub
       </a>
       {data?.demoUrl && (
       <a href={data.demoUrl} target="_blank" rel='noreferrer'
-      className="btn">Demo</a>
+      className="btn">Live Demo</a>
       )}
       </article>
     </section>

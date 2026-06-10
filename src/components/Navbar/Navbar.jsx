@@ -9,7 +9,7 @@ function Navbar() {
       <nav className='navbar-top'>
       <a className="navbar-name" href='#home'><img 
       src="./star.svg" alt="star icon" />
-      <p>andrea.dev</p></a>
+      <p>andreavega.dev</p></a>
         <ul className="navbar-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Skills</a></li>
